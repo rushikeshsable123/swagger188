@@ -12,6 +12,8 @@ public class Batchcontroller {
 	public int addition(@PathVariable int num1,@PathVariable int num2)
 	{
 		int res = num1 + num2;
+
+		System.out.println("addition");
 		return res;
 		
 	}
